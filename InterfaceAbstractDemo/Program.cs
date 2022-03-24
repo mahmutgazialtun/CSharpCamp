@@ -16,8 +16,8 @@ namespace InterfaceAbstractDemo
         {
             BaseCustomerManager customerManager = new NeroCustomerManager(new MernisServiceAdapter());
             customerManager.Save(new Customer { 
-                DateOfBirth = new DateTime(1986, 1, 6), FirstName = "Engin",
-                LastName = "Demiroğ", NationaltiyId = "28861499108" });
+                DateOfBirth = new DateTime(2000, 4, 27), FirstName = "Gazi",
+                LastName = "Altun", NationaltiyId = "22222222222" });
             Console.ReadLine();
         }
     }
