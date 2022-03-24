@@ -16,13 +16,13 @@ namespace GameSaleDemo
         {
             
             BaseCustomerManager customerManager = new CustomerManager(new MernisServiceAdapter());
-            //customerManager.Add(new Customer
-            //{
-            //    DateOfBirth = new DateTime(1985, 1, 6),
-            //    FirstName = "Engin",
-            //    LastName = "Demiroğ",
-            //    NationalityId = "28861499108"
-            //});
+            customerManager.Add(new Customer
+            {
+                DateOfBirth = new DateTime(2000, 4, 6),
+                FirstName = "Gazi",
+                LastName = "Altun",
+                NationalityId = "11111111111"
+            });
 
             Campaign campaign1 = new Campaign();
             campaign1.CampaignId = 1;
